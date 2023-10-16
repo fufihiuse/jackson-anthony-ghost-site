@@ -1,0 +1,93 @@
+body {
+    background-image: url("ghost.gif");
+    color: red;
+    background-color: #000000;
+}
+
+main {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    display: inline-block;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    max-width: 75vw;
+    list-style-image: url("ghostBullet.gif");
+}
+
+.text-color-white {
+    color: white;
+}
+
+.circle:active {
+    background-image: url("buttonClick.png");
+    pointer-events: none;
+}
+
+.button-container {
+    position: relative;
+    height: 152px;
+}
+
+#circle {
+    background-image: url("buttonNoClick.png");
+    background-size: contain;
+    width: 160px;
+    height: 152px;
+    background-color: #ff000000;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -80px;
+}
+
+#circle-background {
+    border-radius: 50%;
+    background-color: #ff0000;
+    width: 150px;
+    height: 139px;
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    margin-left: -75px;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+.underline {
+    text-decoration-line: underline;
+}
+
+#name {
+    font-style: italic;
+    text-decoration-line: underline;
+}
+
+#small {
+    font-size: 0.25em;
+    color: yellow;
+}
+
+#note {
+    font-size: 2rem;
+}
+
+#emergency-text {
+    text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 75vw;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+}

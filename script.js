@@ -28,7 +28,7 @@ const alertMode = () => {
                 <li>If the house/apartment/domicile/building itself is haunted, <strong>VACATE THE PREMISES</strong>!
                 </li>
                 <li>Eat as much salt (NaCl) as you can as quickly as possible, to avoid ghostly possession</li>
-                <li>CALL US: <a href="tel:+12107010873">(210)701-0873</a></li>
+                <li>CALL US: <a href="tel:+17025827764">(702)582-7764</a></li>
             </ol>
         </div>
     </center>
